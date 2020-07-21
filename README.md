@@ -1,6 +1,7 @@
 # Don't Starve Together for Pterodactyl
-![GitHub Issues](https://img.shields.io/github/issues/serpentiel/pterodactyl-dont-starve-together)
-![GitHub](https://img.shields.io/github/license/serpentiel/pterodactyl-dont-starve-together)
+[![Docker Repository on Quay](https://quay.io/repository/serpentiel/pterodactyl-dont-starve-together/status "Docker Repository on Quay")](https://quay.io/repository/serpentiel/pterodactyl-dont-starve-together)
+[![GitHub Issues](https://img.shields.io/github/issues/serpentiel/pterodactyl-dont-starve-together "")](https://github.com/Serpentiel/pterodactyl-dont-starve-together/issues)
+[![GitHub](https://img.shields.io/github/license/serpentiel/pterodactyl-dont-starve-together)](https://choosealicense.com/licenses/gpl-3.0/)
 
 This repository contains egg and Docker image files which could be used to run Don't Starve Together servers using [Pterodactyl Panel](https://github.com/pterodactyl/panel).
 
