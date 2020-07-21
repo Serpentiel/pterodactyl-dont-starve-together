@@ -1,1 +1,0 @@
-# pterodactyl-dont-starve-together
