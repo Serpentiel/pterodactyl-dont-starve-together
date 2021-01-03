@@ -15,6 +15,9 @@ if [[ $SERVER_LOG_DIR ]]; then
   mkdir -p backup/server_log
   mkdir -p backup/server_chat_log
   
+  # Delete Log Backups Which Are Older Than 3 Months
+  find backup -type f -mtime +90 -delete
+  
   CURRENT_DATETIME=$(date +%Y-%m-%d_%H-%M-%S)
   mv server_log.txt backup/server_log/server_log_"${CURRENT_DATETIME}".txt
   mv server_chat_log.txt backup/server_chat_log/server_chat_log_"${CURRENT_DATETIME}".txt
