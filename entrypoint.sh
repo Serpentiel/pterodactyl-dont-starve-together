@@ -9,7 +9,7 @@ sleep 1
 # Backup the Logs
 SERVER_LOG_DIR=$(find . -name 'server_log.txt' -printf '%h\n' | sort -u)
 if [[ $SERVER_LOG_DIR ]]; then
-  cd SERVER_LOG_DIR || exit
+  cd "$SERVER_LOG_DIR" || exit
   
   mkdir -p backup
   mkdir -p backup/server_log
