@@ -5,7 +5,7 @@
 # ----------------------------------
 FROM        ubuntu:18.04
 
-LABEL       author="Aleksander Zaruczewski" maintainer="hello@serpentiel.me"
+LABEL       author="Aleksander Zaruczewski" maintainer="hi@serpentiel.me"
 
 ENV         DEBIAN_FRONTEND noninteractive
 # Install Dependencies
